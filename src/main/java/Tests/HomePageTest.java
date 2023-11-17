@@ -17,7 +17,6 @@ import Util.Utility;
 import testbase.TestBaseClass;
 
 public class HomePageTest extends TestBaseClass{
-	LoginPage loginpage;
 	HomePage homepage;
 	ExtentTest logger;
 	ExtentReports extent;
