@@ -9,9 +9,9 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">75,903</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">130,164</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Tests.HomePageTest</td><td><a href="#m0">getTitle</a></td><td rowspan="1">1700226927236</td><td rowspan="1">222</td></tr><tr class="failedodd"><td rowspan="1">Tests.LoginPageTest</td><td><a href="#m1">LoginTest</a></td><td rowspan="1">1700226911467</td><td rowspan="1">4879</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">Tests.LoginPageTest</td><td><a href="#m2">LoginTest</a></td><td rowspan="1">1700226861137</td><td rowspan="1">43999</td></tr><tr class="passedeven"><td><a href="#m3">getTitle</a></td><td rowspan="1">1700226921243</td><td rowspan="1">95</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Tests.HomePageTest</td><td><a href="#m0">getTitle</a></td><td rowspan="1">1700230337780</td><td rowspan="1">44806</td></tr><tr class="failedodd"><td rowspan="1">Tests.LoginPageTest</td><td><a href="#m1">LoginTest</a></td><td rowspan="1">1700230317640</td><td rowspan="1">5217</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">Tests.LoginPageTest</td><td><a href="#m2">LoginTest</a></td><td rowspan="1">1700230264827</td><td rowspan="1">45214</td></tr><tr class="passedeven"><td><a href="#m3">getTitle</a></td><td rowspan="1">1700230330292</td><td rowspan="1">148</td></tr></tbody>
 </table>
 <h2>Test</h2><h3 id="m0">Tests.HomePageTest#getTitle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.banner\-section&quot;}
   (Session info: chrome=110.0.5481.178)
@@ -19,8 +19,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;RAKESH-WINDOWS-&apos;, ip: &apos;10.0.0.143&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rakes\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62055}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c3f55d98653385a811afa3a16b3f7bd1
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rakes\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c5a6723c7e9edb1231e8c4d2b2f9301
 *** Element info: {Using=class name, value=banner-section}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -32,8 +32,8 @@ Session ID: c3f55d98653385a811afa3a16b3f7bd1
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
 	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at Pages.HomePage.HomePageTest(HomePage.java:12)
-	at Tests.HomePageTest.getTitle(HomePageTest.java:39)
+	at Pages.HomePage.HomePageTest(HomePage.java:23)
+	at Tests.HomePageTest.getTitle(HomePageTest.java:40)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">Tests.LoginPageTest#LoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>null</td><td>null</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-17T08:14:12 EST" name="Suite" finished-at="2023-11-17T08:15:27 EST" duration-ms="75903">
+  <suite started-at="2023-11-17T09:10:53 EST" name="Suite" finished-at="2023-11-17T09:13:03 EST" duration-ms="130164">
     <groups>
     </groups>
-    <test started-at="2023-11-17T08:14:12 EST" name="Test" finished-at="2023-11-17T08:15:27 EST" duration-ms="75903">
+    <test started-at="2023-11-17T09:10:53 EST" name="Test" finished-at="2023-11-17T09:13:03 EST" duration-ms="130164">
       <class name="Tests.HomePageTest">
-        <test-method is-config="true" signature="Init()[pri:0, instance:Tests.HomePageTest@54c5a2ff]" started-at="2023-11-17T08:15:21 EST" name="Init" finished-at="2023-11-17T08:15:27 EST" duration-ms="5621" status="PASS">
+        <test-method is-config="true" signature="Init()[pri:0, instance:Tests.HomePageTest@54c5a2ff]" started-at="2023-11-17T09:12:10 EST" name="Init" finished-at="2023-11-17T09:12:17 EST" duration-ms="6954" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Init -->
-        <test-method signature="getTitle()[pri:0, instance:Tests.HomePageTest@54c5a2ff]" started-at="2023-11-17T08:15:27 EST" name="getTitle" finished-at="2023-11-17T08:15:27 EST" duration-ms="222" status="FAIL">
+        <test-method signature="getTitle()[pri:0, instance:Tests.HomePageTest@54c5a2ff]" started-at="2023-11-17T09:12:17 EST" name="getTitle" finished-at="2023-11-17T09:13:02 EST" duration-ms="44806" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".banner\-section"}
@@ -20,8 +20,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RAKESH-WINDOWS-', ip: '10.0.0.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rakes\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62055}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c3f55d98653385a811afa3a16b3f7bd1
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rakes\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c5a6723c7e9edb1231e8c4d2b2f9301
 *** Element info: {Using=class name, value=banner-section}]]>
             </message>
             <full-stacktrace>
@@ -31,8 +31,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RAKESH-WINDOWS-', ip: '10.0.0.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rakes\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62055}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c3f55d98653385a811afa3a16b3f7bd1
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rakes\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c5a6723c7e9edb1231e8c4d2b2f9301
 *** Element info: {Using=class name, value=banner-section}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -49,8 +49,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
 at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at Pages.HomePage.HomePageTest(HomePage.java:12)
-at Tests.HomePageTest.getTitle(HomePageTest.java:39)
+at Pages.HomePage.HomePageTest(HomePage.java:23)
+at Tests.HomePageTest.getTitle(HomePageTest.java:40)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -85,7 +85,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle -->
-        <test-method is-config="true" signature="Quit(org.testng.ITestResult)[pri:0, instance:Tests.HomePageTest@54c5a2ff]" started-at="2023-11-17T08:15:27 EST" name="Quit" finished-at="2023-11-17T08:15:27 EST" duration-ms="511" status="PASS">
+        <test-method is-config="true" signature="Quit(org.testng.ITestResult)[pri:0, instance:Tests.HomePageTest@54c5a2ff]" started-at="2023-11-17T09:13:02 EST" name="Quit" finished-at="2023-11-17T09:13:03 EST" duration-ms="727" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -98,11 +98,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- Quit -->
       </class> <!-- Tests.HomePageTest -->
       <class name="Tests.LoginPageTest">
-        <test-method is-config="true" signature="Init()[pri:0, instance:Tests.LoginPageTest@130c12b7]" started-at="2023-11-17T08:14:13 EST" name="Init" finished-at="2023-11-17T08:14:21 EST" duration-ms="7501" status="PASS">
+        <test-method is-config="true" signature="Init()[pri:0, instance:Tests.LoginPageTest@130c12b7]" started-at="2023-11-17T09:10:54 EST" name="Init" finished-at="2023-11-17T09:11:04 EST" duration-ms="10036" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Init -->
-        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginPageTest@130c12b7]" started-at="2023-11-17T08:14:21 EST" name="LoginTest" data-provider="data" finished-at="2023-11-17T08:15:05 EST" duration-ms="43999" status="PASS">
+        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginPageTest@130c12b7]" started-at="2023-11-17T09:11:04 EST" name="LoginTest" data-provider="data" finished-at="2023-11-17T09:11:50 EST" duration-ms="45214" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -118,7 +118,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="Quit(org.testng.ITestResult)[pri:0, instance:Tests.LoginPageTest@130c12b7]" started-at="2023-11-17T08:15:05 EST" name="Quit" finished-at="2023-11-17T08:15:05 EST" duration-ms="702" status="PASS">
+        <test-method is-config="true" signature="Quit(org.testng.ITestResult)[pri:0, instance:Tests.LoginPageTest@130c12b7]" started-at="2023-11-17T09:11:50 EST" name="Quit" finished-at="2023-11-17T09:11:51 EST" duration-ms="984" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -129,11 +129,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Quit -->
-        <test-method is-config="true" signature="Init()[pri:0, instance:Tests.LoginPageTest@130c12b7]" started-at="2023-11-17T08:15:05 EST" name="Init" finished-at="2023-11-17T08:15:11 EST" duration-ms="5613" status="PASS">
+        <test-method is-config="true" signature="Init()[pri:0, instance:Tests.LoginPageTest@130c12b7]" started-at="2023-11-17T09:11:51 EST" name="Init" finished-at="2023-11-17T09:11:57 EST" duration-ms="6585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Init -->
-        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginPageTest@130c12b7]" started-at="2023-11-17T08:15:11 EST" name="LoginTest" data-provider="data" finished-at="2023-11-17T08:15:16 EST" duration-ms="4879" status="FAIL">
+        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginPageTest@130c12b7]" started-at="2023-11-17T09:11:57 EST" name="LoginTest" data-provider="data" finished-at="2023-11-17T09:12:02 EST" duration-ms="5217" status="FAIL">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -185,7 +185,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="Quit(org.testng.ITestResult)[pri:0, instance:Tests.LoginPageTest@130c12b7]" started-at="2023-11-17T08:15:16 EST" name="Quit" finished-at="2023-11-17T08:15:16 EST" duration-ms="606" status="PASS">
+        <test-method is-config="true" signature="Quit(org.testng.ITestResult)[pri:0, instance:Tests.LoginPageTest@130c12b7]" started-at="2023-11-17T09:12:02 EST" name="Quit" finished-at="2023-11-17T09:12:03 EST" duration-ms="752" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -196,15 +196,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Quit -->
-        <test-method is-config="true" signature="Init()[pri:0, instance:Tests.LoginPageTest@130c12b7]" started-at="2023-11-17T08:15:16 EST" name="Init" finished-at="2023-11-17T08:15:21 EST" duration-ms="4284" status="PASS">
+        <test-method is-config="true" signature="Init()[pri:0, instance:Tests.LoginPageTest@130c12b7]" started-at="2023-11-17T09:12:03 EST" name="Init" finished-at="2023-11-17T09:12:10 EST" duration-ms="6668" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Init -->
-        <test-method signature="getTitle()[pri:0, instance:Tests.LoginPageTest@130c12b7]" started-at="2023-11-17T08:15:21 EST" name="getTitle" finished-at="2023-11-17T08:15:21 EST" duration-ms="95" status="PASS">
+        <test-method signature="getTitle()[pri:0, instance:Tests.LoginPageTest@130c12b7]" started-at="2023-11-17T09:12:10 EST" name="getTitle" finished-at="2023-11-17T09:12:10 EST" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle -->
-        <test-method is-config="true" signature="Quit(org.testng.ITestResult)[pri:0, instance:Tests.LoginPageTest@130c12b7]" started-at="2023-11-17T08:15:21 EST" name="Quit" finished-at="2023-11-17T08:15:21 EST" duration-ms="272" status="PASS">
+        <test-method is-config="true" signature="Quit(org.testng.ITestResult)[pri:0, instance:Tests.LoginPageTest@130c12b7]" started-at="2023-11-17T09:12:10 EST" name="Quit" finished-at="2023-11-17T09:12:10 EST" duration-ms="377" status="PASS">
           <params>
             <param index="0">
               <value>
