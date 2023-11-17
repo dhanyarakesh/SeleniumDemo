@@ -1,19 +1,11 @@
 pipeline {
    agent any
    stages {
-    stage('Checkout') {
-      steps {
-        script {
-           // The below will clone your repo and will be checked out to master branch by default.
-           git credentialsId: 'de9dc15b-f56c-455e-8633-02013d8680f1', url: 'https://github.com/dhanyarakesh/SeleniumDemo.git'
-           // Do a ls -lart to view all the files are cloned. It will be clonned. This is just for you to be sure about it.
-           sh "ls -lart ./*" 
-           // List all branches in your repo. 
-           sh "git branch -a"
-           // Checkout to a specific branch in your repo.
-           sh "git checkout main"
-          }
-       }
+        stage('Checkout') {
+            steps {
+                checkout([$class: 'GitSCM', branches: [[name: '*/main']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'de9dc15b-f56c-455e-8633-02013d8680f1', url: 'https://github.com/dhanyarakesh/SeleniumDemo.git']]])
+                sh "ls -lart ./*"
+            }
+        }     
     }
-  }
 }
